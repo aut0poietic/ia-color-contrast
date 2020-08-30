@@ -1,6 +1,8 @@
 # Irresponsible Art Color Contrast Control
 
-![WordPress Customizer with a working Color Contrast control.](./ia-color-contrast-example.png)
+ <div style="text-align:center">
+    <img src="./ia-color-contrast-example.png" alt="WordPress Customizer with a working Contrast Control" width="301" height="309"/>
+ </div>
 
  The IA Color Contrast control is a custom WP_Customize_Control for use in the WordPress Customizer.
  

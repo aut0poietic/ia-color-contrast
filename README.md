@@ -1,4 +1,4 @@
-# Irresponsible Art Color Contrast Control
+# WordPress Customizer: Color Contrast Control
 
  <div style="text-align:center">
     <img src="./ia-color-contrast-example.png" alt="WordPress Customizer with a working Contrast Control" width="301" height="309"/>

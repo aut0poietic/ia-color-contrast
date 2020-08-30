@@ -4,10 +4,10 @@
     <img src="./ia-color-contrast-example.png" alt="WordPress Customizer with a working Contrast Control" width="301" height="309"/>
  </div>
 
- The IA Color Contrast control is a custom WP_Customize_Control for use in the WordPress Customizer.
+ The IA Color Contrast control is a custom `WP_Customize_Control` for use in the WordPress Customizer.
  
  It is intended for use by WordPress theme developers who would like to add a contrast check to their theme color options in
- the customizer. Because of it's intended for use in a custom theme, this repository is not a full plugin. Instead,
+ the customizer. Because it is intended to be used as a part of a custom theme, this repository is not a full plugin. Instead,
  theme developers are encouraged to drop the files into a theme project and alter the paths and text domain. This control 
  should be compliant with the Theme Review guidelines for wordpress.org theme submission. 
  
@@ -23,6 +23,8 @@
  should be *five instances* in the `class-ia-color-contrast-customize-control.php` file (in the call to 
  `wp_set_script_translations` and in the HTML portion of the `content_template` method) and
  *four instances* in the `ia-color-contrast-customize-control.js` file (in the `update` method).
+ 
+ If at all possible, please leave the PHP, JavaScript and CSS file comment headers in place. 
  
  ## Usage
  

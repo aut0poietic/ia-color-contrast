@@ -4,11 +4,9 @@
  *
  * @package ia
  *
- * @wordpress-plugin
- *
  * Plugin Name: Color Contrast Control for WordPress Customizer
  * Plugin URI:  https://github.com/aut0poietic/ia-color-contrast
- * Description: A custom WordPress nav walker class to implement the Bootstrap 4 navigation style in a custom theme using the WordPress built in menu manager.
+ * Description: Adds a custom control that can be used to insert a contrast check for a color pair in the WordPress Customizer.
  * Author: Jer Brand - @aut0poietic
  * Version: 1.0.0
  * Author URI: https://irresponsibleart.com

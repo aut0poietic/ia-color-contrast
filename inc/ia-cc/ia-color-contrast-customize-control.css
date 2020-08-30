@@ -1,0 +1,65 @@
+/**
+ * Color Contrast Control for WordPress Customizer
+ *
+ * This script file is enqueued by `class-ia-color-contrast-customize-control.php`.
+ */
+
+.customize-control.customize-control-color-contrast {
+	margin-top : -10px;
+}
+
+.color-contrast-customize-ui-results {
+	display         : flex;
+	width           : 100%;
+	align-items     : flex-end;
+	justify-content : space-between;
+}
+
+.color-contrast-customize-ui .color-contrast-customize-ui-label {
+	font-weight : 700;
+}
+
+.color-contrast-customize-ui-results > .wcag {
+	display       : inline-block;
+	margin        : 0;
+	padding       : 2px 4px;
+	border        : 1px solid #d1d1d1;
+	border-radius : 2px;
+	color         : #f1f1f1;
+	font-size     : 11px;
+	line-height   : 12px;
+	text-shadow   : 0 0 2px rgba(255, 255, 255, 0.4);
+}
+
+.color-contrast-customize-ui-results > .wcag > svg {
+	position : relative;
+	top      : 1px;
+	display  : none;
+	width    : 12px;
+	height   : 12px;
+}
+
+.color-contrast-customize-ui-results > .wcag > svg.pass {
+	top : 2px;
+}
+
+.color-contrast-customize-ui-results .wcag.fail {
+	color        : #6e6e6e;
+	border-color : #ddd;
+}
+
+.color-contrast-customize-ui-results .wcag.fail svg.fail {
+	display : inline-block;
+}
+
+.color-contrast-customize-ui-results .wcag.pass {
+	color : #111;
+}
+
+.color-contrast-customize-ui-results .wcag.pass svg.pass {
+	display : inline-block;
+}
+
+.color-contrast-customize-ui .ratio {
+	font-weight : 700;
+}
